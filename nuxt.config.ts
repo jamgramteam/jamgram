@@ -4,5 +4,6 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
     typescript: {
         shim: false
-    }
+    },
+    plugins: ['~/plugins/supertokens.client.js']
 })

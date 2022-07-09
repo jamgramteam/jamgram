@@ -1,5 +1,9 @@
+<script setup>
+import Iconify from '@iconify/iconify';
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <Login></Login>
   </div>
 </template>
