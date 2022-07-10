@@ -4,6 +4,7 @@ import Iconify from '@iconify/iconify';
 
 <template>
   <div>
-    <Login></Login>
+    <NuxtPage />
   </div>
 </template>
+

@@ -5,9 +5,9 @@ import Session from "supertokens-web-js/recipe/session";
 export default defineNuxtPlugin((nuxtApp) => {
     SuperTokens.init({
         appInfo: {
-            apiDomain: "https://localhost:3000",
-            apiBasePath: "/api/auth",
-            appName: "...",
+            apiDomain: "http://localhost:3000",
+            apiBasePath: "/api/auth/",
+            appName: "Jamgram",
         },
         recipeList: [
             Session.init(),
