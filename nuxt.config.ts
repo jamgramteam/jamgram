@@ -5,5 +5,5 @@ export default defineNuxtConfig({
     typescript: {
         shim: false
     },
-    // plugins: ['~/plugins/supertokens.client.ts']
+    plugins: ['~/plugins/firebase.client.ts']
 })
